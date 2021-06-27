@@ -14,23 +14,6 @@
 
 
 
-
-### 队列的抽象数据类型
-```
-    Data
-
-    Operation
-        InitQueue(*Q): 初始化操作
-        EnQueue(*Q, e)
-        DeQueue(*Q, e)
-        DestroyQueue(*Q)
-        ClearQueue(*Q): 将线性表清空
-        GetHead(Q, *e)：
-        QueueLength(Q)
-        QueueEmpty(Q)：若线性表为空，返回true
-
-```
-
 ### 队列的类型
 * 普通队列
 * 双端队列

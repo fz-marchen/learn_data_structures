@@ -100,8 +100,7 @@ bool ListDelete(LinkList& L, int i, int * e) {
 LNode * getElem(LinkList& L, int i ) {
     if (i < 1) return NULL;
     int j = 0;
-    LNode* p;
-    p = L;
+    LNode* p = L;
     while (p!=NULL && j < i) {
         p = p->next;
         j++;
@@ -111,7 +110,6 @@ LNode * getElem(LinkList& L, int i ) {
 
 LNode* locateElem(LinkList& L, int *e) {
     LNode* p = L->next;
-    p = L;
     while (p != NULL && p->data != e) {
         p = p->next;
     }
